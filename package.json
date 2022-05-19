@@ -1,0 +1,33 @@
+{
+  "name": "npm-packaging-poc",
+  "version": "1.0.0",
+  "description": "A test component library",
+  "main": "build/index.js",
+  "module": "build/index.cjs.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "sideEffects": false,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/react": "^18.0.9",
+    "node-sass": "^7.0.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rollup": "^2.73.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
