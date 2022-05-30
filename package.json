@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A test component library",
   "main": "build/index.js",
-  "module": "build/index.cjs.js",
+  "module": "build/index.es.js",
   "files": [
     "build"
   ],

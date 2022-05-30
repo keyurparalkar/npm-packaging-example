@@ -10,17 +10,15 @@ export default {
     input: "src/index.ts",
     output: [
         {
-            file: packageJson.module,
+            file: packageJson.main,
             format: "cjs",
             sourcemap: true
-        },
-        {
-            // file: packageJson.module,
+          },
+          {
+            file: packageJson.module,
             format: "esm",
-            sourcemap: true,
-            dir: 'build',
-            preserveModules: true,
-        }
+            sourcemap: true
+          }
     ],
     plugins: [
         peerDepsExternal(),
