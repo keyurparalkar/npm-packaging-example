@@ -9,7 +9,7 @@ export default {
     input: ["src/index.ts", "src/Button/index.ts", "src/Text/index.ts"],
     output: [
         {
-            dir: "dist",
+            dir: "lib",
             format: "esm",
             sourcemap: true,  
         },

@@ -2,11 +2,11 @@
   "name": "npm-packaging-poc",
   "version": "1.0.0",
   "description": "A test component library",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "files": [
-    "dist"
+    "lib"
   ],
-  "types": "dist/index.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
